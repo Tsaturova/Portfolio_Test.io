@@ -1,5 +1,5 @@
 
----*Creating Danabase*
+---*Creating Database*
 
 create database Library
  use Library
@@ -16,7 +16,7 @@ delete from Books where Book_id=1
 
 insert into Books(Book_id,Title,Author_id,Genre,Publish_year,Price)
 values 
-(8,'Harry Potter and the Sorcerer’s Stone',8,'Fantasy',1997,19.99),
+(8,'Harry Potter and the Sorcererâ€™s Stone',8,'Fantasy',1997,19.99),
 (9,'The Lord of the Rings',7,'Fantasy',1954,22.99),
 (10,'The Da Vinci Code',9,'Mystery/Thriller',2003,15.99),
 (11,'Animal Farm',2,'Political Allegory',1945,6.99),
@@ -28,7 +28,7 @@ values
 (17,'Wuthering Heights',15,'Romance',1847,7.49),
 (18,'Jane Eyre',16,'Gothic Fiction',1847,9.99),
 (19,'The Catcher in the Rye',6,'Fiction',1951,9.99),
-(20,'Les Misérables',17,'Historical Fiction',1862,12.99)
+(20,'Les MisÃ©rables',17,'Historical Fiction',1862,12.99)
 
 create table Author(Author_ID int primary key, First_Name varchar(100),Last_Name varchar(100),Birth_year int,Country varchar(100))
 
@@ -47,8 +47,8 @@ values
 (12,'C.S.','Lewis',1898,'UK'),
 (13,'Stephen','King',1947,'USA'),
 (14,'Fyodor','Dostoevsky',1821,'Russia'),
-(15,'Emily','Brontë',1818,'UK'),
-(16,'Charlotte','Brontë',1816,'UK'),
+(15,'Emily','BrontÃ«',1818,'UK'),
+(16,'Charlotte','BrontÃ«',1816,'UK'),
 (17,'Victor','Hugo',1802,'France'),
 (18,'Leo','Tolstoy',1828,'Russia'),
 (19,'J.D.','Salinger',1919,'USA'),
@@ -96,7 +96,7 @@ values
 (6,6,6,'2023-06-01','2023-06-10','Returned',4,'Interesting, but a bit slow.'),
 (7,7,7,'2023-07-15',NULL,'Rented',NULL,NULL),
 (8,8,8,'2023-08-20',NULL,'Rented',NULL,NULL),
-(9,9,9,'2023-09-25','2023-10-02','Returned',5,'Excellent! Couldn’t put it down!'),
+(9,9,9,'2023-09-25','2023-10-02','Returned',5,'Excellent! Couldnâ€™t put it down!'),
 (10,10,10,'2023-10-05',NULL,'Rented',NULL,NULL),
 (11,11,6,'2023-11-10','2023-11-15','Returned',4,'Great for fans of the genre.'),
 (12,12,1,'2023-12-01',NULL,'Rented',NULL,NULL),
